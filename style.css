@@ -25,6 +25,15 @@ img {
   padding: 50px 50px 0px 50px;
 }
 
+.menu {
+  color: #6ed3cf;
+  font-family: 'Alice', serif;
+}
+
+.menu a:hover {
+  color: #9068be;
+}
+
 .hero {
   background-color: #6ed3cf;
   font-family: 'Alice', serif;
