@@ -1,3 +1,55 @@
-p {
-  color: red;
+/*
+ * Blue: 6ed3cf;
+ * Purple: 9068be;
+ * Grey: e1e8f0;
+ * Red: e62739;
+ * Black: 000000;
+ * White: FFFFFF;
+ */
+
+body {
+  color: #000000;
+  font-family: 'Lora', serif;
+}
+
+b {
+  color: #6ed3cf;
+}
+
+a {
+  color: #6ed3cf;
+  font-style: underline;
+}
+
+img {
+  padding: 50px 50px 0px 50px;
+}
+
+.hero {
+  background-color: #6ed3cf;
+  font-family: 'Alice', serif;
+  text-align: center;
+}
+
+.AboutMe {
+  background-color: #9068be;
+  color: #FFFFFF;
+}
+
+.linkage {
+  background-color: #e1e8f0;
+}
+
+.linkage h2 {
+  text-align: center;
+}
+
+.ContactMe {
+  background-color: #6ed3cf;
+}
+
+.ContactMe p {
+  color: #000000;
+  text-align: right;
+  padding: 0px 10px 0px 0px;
 }
