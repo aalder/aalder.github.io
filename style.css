@@ -44,8 +44,19 @@ img {
   text-align: center;
 }
 
+.linkage img:hover {
+  /*
+   * Find a way to gray out the image slightly
+   */
+}
+
 .ContactMe {
   background-color: #6ed3cf;
+}
+
+.ContactMe a {
+  color: #000000;
+  text-align: left;
 }
 
 .ContactMe p {
