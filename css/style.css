@@ -45,12 +45,26 @@ img {
   color: #FFFFFF;
 }
 
+.AboutMe h2 {
+  padding-top: 50px;
+}
+
+.AboutMe img {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
 .linkage {
   background-color: #e1e8f0;
 }
 
 .linkage h2 {
   text-align: center;
+}
+
+.linkage img {
+  width: 50%;
+  padding-bottom: 50px;
 }
 
 .linkage img:hover {
