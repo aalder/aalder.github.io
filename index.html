@@ -12,7 +12,6 @@
     <link href='https://fonts.googleapis.com/css?family=Alice|Lora' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <!-- Todo: make background image of Zurich -->
     <div id="hero">
       <div class="container">
         <div class="row">
@@ -25,18 +24,20 @@
 
     <div id="AboutMe">
       <div class="container">
-        <div class="col-md-6">
+        <div class="row">
+          <h2><u>About Me</u></h2>
+        </div>
+        <div class="col-md-4">
           <img src="img/profile-pic.jpeg" alt-text="Profile Picture">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="row">
-            <h2><u>About Me</u></h2>
             <h3>Serious Business:</h3>
             <p>4th year <a href="http://www.ccis.northeastern.edu/">Computer Science</a> major. </p>
             <p>Studying abroad at <a href="https://www.uzh.ch/en.html">University of Z&uuml;rich</a></p>
+            <p>Staff member/Volunteer Wrangler for <a href="http://www.animeboston.com/">Anime Boston Volunteer Program</a></p>
             <p>Ex-President of the Board and Chief Organizer of <a href="https://www.hackbeanpot.com/">HackBeanpot, Inc</a>
             <p>Ex-President of <a href="http://nuwit.ccs.neu.edu/">nuWiT</a> (Northeastern Women in Technology)</p>
-            <p>Staff member/Volunteer Wrangler for <a href="http://www.animeboston.com/">Anime Boston Volunteer Program</a></p>
             <p><u>Past Co-op/Intern at:</u><p>
               <li>
                 <p><a href="www.messenger.com">Facebook Messenger</a> working on Messenger for Android</p>
@@ -45,7 +46,10 @@
                 <p>Intuit working on <b><a href="http://quickbase.intuit.com/">Quickbase's Marketing Website</a></b></p>
               </li>
             <p>Currently looking for a co-op/internship from February - August 2017 </p>
-
+          </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div class="row">
             <h3>Casually:</h3>
             <p>Loves SFX Makeup</p>
             <p>Attends Hackathons such as <b><a href="http://scsharkhack.org/">Shark Hacks</a></b></p>
@@ -56,46 +60,59 @@
         </div>
       </div>
     </div>
-    <!-- TODO: fix styling and find images for these links -->
-    <!-- <div id="linkage">
+
+    <div id="linkage">
       <div class="container">
         <div class="row">
           <h2>You should check these things out</h2>
         </div>
-        <div class="col-xs-6">
-          <a href="http://hackbeanpot.com">
-            <img src="img/HackBeanLogo.png" alt-text="HackBeanpot Logo Link">
-          </a>
-        </div>
-        <div class="col-xs-6">
-          <a href="http://nuwit.ccs.neu.edu">nuWiT</a>
-        </div>
-        <div class="col-xs-6">
-          <a href="https://www.linkedin.com/in/allisonalder">LinkedIn</a>
-        </div>
-        <div class="col-xs-6">
-          <a href="https://github.com/aalder">Github</a>
-        </div>
-        <div class="col-xs-6">
-          <a href="https://twitter.com/allisonalder">Twitter</a>
-        </div>
-        </div>
-      </div>
-    </div> -->
-    <div id="ContactMe">
-      <div class="container">
-        <div class="col-md-6">
-          <a href="img/AllisonAlder.pdf"><u>Resume</u></a>
-        </div>
-        <div class="col-md-6">
-          <div class="right-align">
-            <p>allison dot alder at gmail dot com</p>
+        <div class="row">
+          <div id="social-links">
+            <div class="col-xs-3">
+              <!-- needed for the offset to exist on desktop but not mobile -->
+            </div>
+            <div class="col-md-1">
+              <a href="http://hackbeanpot.com">
+                <img src="img/HackBeanLogo.png" alt-text="HackBeanpot Logo Link">
+              </a>
+            </div>
+            <div class="col-md-1">
+              <a href="http://nuwit.ccs.neu.edu">
+                <img src="img/nuwit.jpg" alt-text="nuWiT Logo">
+              </a>
+            </div>
+            <div class="col-md-1">
+              <a href="https://www.linkedin.com/in/allisonalder">
+                <img src="img/linkedin.png" alt-text="LinkedIn logo">
+              </a>
+            </div>
+            <div class="col-md-1">
+              <a href="https://twitter.com/allisonalder">
+                <img src="img/twitter.png" alt-text="Twitter logo">
+              </a>
+            </div>
+            <div class="col-md-1">
+              <a href="https://github.com/aalder">
+                <img src="img/github.png" alt-text="Github logo">
+              </a>
+            </div>
+            <div class="col-md-1">
+              <a href="img/AllisonAlder.pdf">
+                <img src="img/resume.png" alt-text="Resume image">
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-
+    <div id="ContactMe">
+      <div class="container">
+        <div class="right-align">
+          <p>allison dot alder at gmail dot com</p>
+        </div>
+      </div>
+    </div>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
