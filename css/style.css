@@ -7,9 +7,10 @@
  * White: FFFFFF;
  */
 
-body {
+html, body {
   color: #000000;
   font-family: 'Lora', serif;
+  height: 90%;
 }
 
 b {
@@ -34,56 +35,75 @@ img {
   color: #9068be;
 }
 
-.hero {
+.fill {
+  min-height: 90%;
+  height: 100%;
+}
+
+#hero:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+#hero > .container {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+}
+
+#hero {
+  background: url("img/Zurich.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-color: #6ed3cf;
   font-family: 'Alice', serif;
   text-align: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
 }
 
-.AboutMe {
+#AboutMe {
   background-color: #9068be;
   color: #FFFFFF;
 }
 
-.AboutMe h2 {
+#AboutMe h2 {
   padding-top: 50px;
 }
 
-.AboutMe img {
+#AboutMe img {
   width: 100%;
   padding-bottom: 50px;
 }
 
-.linkage {
+#linkage {
   background-color: #e1e8f0;
 }
 
-.linkage h2 {
+#linkage h2 {
   text-align: center;
 }
 
-.linkage img {
+#linkage img {
   width: 50%;
   padding-bottom: 50px;
 }
 
-.linkage img:hover {
-  /*
-   * Find a way to gray out the image slightly
-   */
-}
-
-.ContactMe {
+#ContactMe {
   background-color: #6ed3cf;
+  padding-top:10px;
 }
 
-.ContactMe a {
+#ContactMe a {
   color: #000000;
   text-align: left;
+  padding-top:10px;
 }
 
-.ContactMe p {
+#ContactMe p {
   color: #000000;
   text-align: right;
-  padding: 0px 10px 0px 0px;
 }
