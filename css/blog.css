@@ -1,0 +1,49 @@
+/*
+ * Blue: 6ed3cf;
+ * Purple: 9068be;
+ * Grey: e1e8f0;
+ * Red: e62739;
+ * Black: 000000;
+ * White: FFFFFF;
+ * Green: A5D36E;
+ */
+html, body {
+  color: #000000;
+  font-family: 'Lora', serif;
+  height: 100%;
+}
+
+a {
+  font-style: underline;
+}
+
+#blog {
+  padding-top: 5%;
+  height: 100%;
+  width: 100%;
+  background-color: #e1e8f0;
+}
+
+#blog a {
+  color: #9068be;
+}
+
+#blog li {
+  padding-top: 1%;
+  font-size: 14pt;
+}
+
+.back {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #6ed3cf;
+  color: #000000;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: right;
+}
+
+.back a {
+  color: #000000;
+}

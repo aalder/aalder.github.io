@@ -96,8 +96,6 @@ img {
 
 #linkage img:hover {
   background-color: #A5D36E;
-  opacity:.5;
-  padding-bottom: 5px;
 }
 
 #linkage #social-links {
@@ -128,4 +126,32 @@ img {
 #four0Four img{
   width: 100%;
   height: 100%;
+}
+
+#blog {
+  height: 100%;
+  width: 100%;
+  background-color: #e1e8f0;
+}
+
+#blog a {
+  color: #9068be;
+}
+
+.back {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #6ed3cf;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: right;
+}
+
+.back a {
+  color: #000000;
+}
+
+.back a:hover {
+  color: #9068be;
 }
