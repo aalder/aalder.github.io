@@ -5,6 +5,7 @@
  * Red: e62739;
  * Black: 000000;
  * White: FFFFFF;
+ * Green: A5D36E;
  */
 
 html, body {
@@ -68,8 +69,17 @@ img {
   width: 100%;
 }
 
+#AboutMe a:hover {
+  color: #A5D36E;
+}
+
+#AboutMe .see-more {
+  text-align: right;
+}
+
 #linkage {
   background-color: #e1e8f0;
+  padding-bottom: 25px;
 }
 
 #linkage h2 {
@@ -78,10 +88,16 @@ img {
 
 #linkage img {
   width: 100%;
-  padding-bottom: 50px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 5px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#linkage img:hover {
+  background-color: #A5D36E;
+  opacity:.5;
+  padding-bottom: 5px;
 }
 
 #linkage #social-links {
