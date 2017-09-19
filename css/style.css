@@ -155,3 +155,45 @@ img {
 .back a:hover {
   color: #9068be;
 }
+
+.portfolioPage {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.portfolioPage .photos img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.portfolioPage .video {
+  padding-left: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.portfolioPage img {
+  padding: 10px 50px 0px 50px;
+  width: 35%;
+  height: 35%;
+}
+
+.socialPress {
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.eventsList img {
+  height: 100px;
+}
