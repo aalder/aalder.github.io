@@ -171,6 +171,10 @@ img {
   height: 100%;
 }
 
+.portfolioPage .photos p {
+  text-align: center;
+}
+
 .footer {
   padding-top: 1%;
   padding-bottom: 1%;
