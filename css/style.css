@@ -58,6 +58,7 @@ a:hover {
 
 #frontpage #social-links {
   text-align: center;
+  min-height: 200px;
 }
 
 #ContactMe {
