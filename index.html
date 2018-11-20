@@ -2,127 +2,64 @@
 <html>
   <head>
     <title>Allison Alder</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/white-heart.png" />
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Alice|Lora' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <!-- Todo: Add menu bar -->
-    <div id="hero">
+    <!-- Nav -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Allison Alder</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="softwareengineer.html">Software Engineering</a></li>
+          <li><a href="eventproducer.html">Event Production</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="frontpage">
       <div class="container">
         <div class="row">
-          <img src="img/white-heart.png" alt-text="White Heart">
           <h1> Allison Alder </h1>
-          <h2>Student | Software Engineer | Events Planner</h2>
+          <h2>Software Engineer & Event Planner</h2>
         </div>
+        <div class="row">
+            <div id="social-links">
+              <div class="col-xs-4">
+                <!-- needed for the offset to exist on desktop but not mobile -->
+              </div>
+              <div class="col-md-1">
+                <a href="https://www.linkedin.com/in/allisonalder">
+                  <img src="img/linkedin.png" alt-text="LinkedIn logo">
+                </a>
+              </div>
+              <div class="col-md-1">
+                <a href="https://twitter.com/allisonalder">
+                  <img src="img/twitter.png" alt-text="Twitter logo">
+                </a>
+              </div>
+              <div class="col-md-1">
+                <a href="https://github.com/aalder">
+                  <img src="img/github.png" alt-text="Github logo">
+                </a>
+              </div>
+              <div class="col-md-1">
+                <a href="resumes.html">
+                  <img src="img/resume.png" alt-text="Resume image">
+                </a>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
-
-    <div id="AboutMe">
-      <div class="container">
-        <div class="row">
-          <h2><u>About Me</u></h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="img/profile-pic.jpeg" alt-text="Profile Picture">
-          </div>
-          <div class="col-md-4">
-            <div class="row">
-              <h3>Serious Business:</h3>
-              <p>Last semester <a href="http://www.ccis.northeastern.edu/">Computer Science</a> major </p>
-              <p>Studied abroad at <a href="https://www.uzh.ch/en.html">University of Z&uuml;rich</a></p>
-              <p>Staff member/Volunteer Ops team member for <a href="http://www.animeboston.com/">Anime Boston Volunteer Program</a></p>
-              <p>Ex-President of the Board and Chief Organizer of <a href="https://www.hackbeanpot.com/">HackBeanpot, Inc</a>
-              <p>Ex-President of <a href="http://nuwit.ccs.neu.edu/">nuWiT</a> (Northeastern Women in Technology)</p>
-              <p><u>Past Co-op/Intern at:</u><p>
-                <li>
-                  Riot Games working in the <a href="http://www.lolesports.com/en_US/">Esports</a> department as the NA LCS Summer Finals 2017 Delivery Lead.
-                </li>
-                <li>
-                  <a href="http://www.morse-corp.com/">MORSE Corp</a> working as a full stack engineer
-                </li>
-                <li>
-                  Facebook working on <a href="www.messenger.com">Messenger</a> for Android
-                </li>
-                <li>
-                  Intuit working on <b><a href="http://quickbase.intuit.com/">Quickbase's Marketing Website</a></b>
-                </li>
-                <p></p>
-              <p> Graduating December 2017</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-md-offset-1">
-            <div class="row">
-              <h3>Casually:</h3>
-              <p>Loves SFX Makeup</p>
-              <p>Attends Hackathons such as <b><a href="http://scsharkhack.org/">Shark Hacks</a></b></p>
-              <p>Plays League of Legends. Summoner name Tecniqcal (Past: JulietsShadow on NA, StarGirl on EUW) </p>
-              <p>Enjoys food, especially spicy food</p>
-            </div>
-          </div>
-        </div><!--
-        <div class="row">
-          <div class="see-more">
-            <a href="aboutMe.html">
-              <u>See More</u>
-            </a>
-          </div>
-        </div> -->
-      </div>
-    </div>
-
-    <div id="linkage">
-      <div class="container">
-        <div class="row">
-          <h2>You should check these things out</h2>
-        </div>
-        <div class="row">
-          <div id="social-links">
-            <div class="col-xs-3">
-              <!-- needed for the offset to exist on desktop but not mobile -->
-            </div>
-            <div class="col-md-1">
-              <a href="http://hackbeanpot.com">
-                <img src="img/HackBeanLogo.png" alt-text="HackBeanpot Logo Link">
-              </a>
-            </div>
-            <div class="col-md-1">
-              <a href="http://nuwit.ccs.neu.edu">
-                <img src="img/nuwit.jpg" alt-text="nuWiT Logo">
-              </a>
-            </div>
-            <div class="col-md-1">
-              <a href="https://www.linkedin.com/in/allisonalder">
-                <img src="img/linkedin.png" alt-text="LinkedIn logo">
-              </a>
-            </div>
-            <div class="col-md-1">
-              <a href="https://twitter.com/allisonalder">
-                <img src="img/twitter.png" alt-text="Twitter logo">
-              </a>
-            </div>
-            <div class="col-md-1">
-              <a href="https://github.com/aalder">
-                <img src="img/github.png" alt-text="Github logo">
-              </a>
-            </div>
-            <div class="col-md-1">
-              <a href="resumes.html">
-                <img src="img/resume.png" alt-text="Resume image">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div id="ContactMe">
       <div class="container">
         <div class="col-md-6">

@@ -11,82 +11,40 @@
 html, body {
   color: #000000;
   font-family: 'Lora', serif;
-  height: 95%;
+  background: #f6f1ed;
 }
 
-b {
-  color: #6ed3cf;
+p, li {
+  color: #30231d;
 }
 
 a {
-  color: #6ed3cf;
-  font-style: underline;
+  color: #CD5360;
 }
 
-img {
-  padding: 50px 50px 0px 50px;
+a:hover {
+  color: #9e2e39;
 }
 
-.fill {
-  min-height: 90%;
-  height: 100%;
+.title {
+  padding-bottom: 10px;
 }
 
-#hero {
+#frontpage {
   margin: 0;
   width: 100%;
   height: 100%;
   min-height: 100%;
   padding-top: 10%;
+  padding-bottom: 70px;
+}
 
-  background: url('../img/Zurich.jpg');
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-  display: compact;
-  background-color: #6ed3cf;
-
-  font-family: 'Alice', serif;
+#frontpage h1, h2 {
   text-align: center;
-  color: #FFFFFF;
+  color: #30231d;
 }
 
-#hero h1 {
-  text-shadow: 1px 1px #e1e8f0;
-}
-
-#AboutMe {
-  background-color: #7146a0;
-  color: #FFFFFF;
-  padding-bottom: 50px;
-}
-
-#AboutMe h2 {
-  text-align: center;
-}
-
-#AboutMe img {
-  padding-top: 8%;
-  width: 100%;
-}
-
-#AboutMe a:hover {
-  color: #A5D36E;
-}
-
-#AboutMe .see-more {
-  text-align: right;
-}
-
-#linkage {
-  background-color: #e1e8f0;
-  padding-bottom: 25px;
-}
-
-#linkage h2 {
-  text-align: center;
-}
-
-#linkage img {
+#frontpage img {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
@@ -94,25 +52,29 @@ img {
   padding-bottom: 10%;
 }
 
-#linkage img:hover {
-  background-color: #A5D36E;
+#frontpage img:hover {
+  background-color: #eec4c8;
 }
 
-#linkage #social-links {
+#frontpage #social-links {
   text-align: center;
 }
 
 #ContactMe {
-  background-color: #6ed3cf;
+  background-color: #30231d;
   padding-top:10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
 }
 
-#ContactMe a {
-  color: #000000;
+#ContactMe {
+  background: #30231d;
 }
 
-#ContactMe a:hover {
-  color: #9068be;
+#ContactMe p {
+  color: #f6f1ed;
 }
 
 #ContactMe .right-align {
@@ -202,4 +164,40 @@ img {
   height: 100%;
   width: 100%;
   padding: 10px 10px 10px 10px;
+}
+
+.resources {
+  padding-top: 20px;
+}
+
+.resources img {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.resources img:hover {
+  background-color: #eec4c8;
+}
+
+/* NAVBAR GENERATED */
+.navbar-default {
+  background-color: #30231d;
+  border-color: #30231d;
+}
+.navbar-default .navbar-brand {
+  color: #f6f1ed;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #eec4c8;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f6f1ed;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #eec4c8;
 }
